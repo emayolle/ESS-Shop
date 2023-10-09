@@ -1,1 +1,33 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.product-card {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  padding: 0;
+  -webkit-box-shadow: 2px 2px 10px #00000055;
+          box-shadow: 2px 2px 10px #00000055;
+}
+
+.product-card .product-header {
+  height: 70%;
+}
+
+.product-card .product-footer {
+  height: 30%;
+  background-color: #63cfab;
+  border-radius: 0px 0px 5px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+.product-card .product-footer .footer-content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+}
+/*# sourceMappingURL=style.css.map */

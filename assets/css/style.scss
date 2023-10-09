@@ -1,0 +1,25 @@
+.product-card {
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    padding: 0;
+    box-shadow: 2px 2px 10px #00000055;
+
+    .product-header {
+        height: 70%;
+    }
+
+    .product-footer {
+        height: 30%;
+        background-color: #63cfab;
+        border-radius: 0px 0px 5px 5px;
+        display: flex;
+        padding: 10px;
+
+        .footer-content {
+            width: 100%;
+            display: flex;
+            flex: 1 1;
+        }
+    }
+}
