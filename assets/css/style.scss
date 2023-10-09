@@ -30,8 +30,9 @@
 
 .container-logo {
     text-align: center;
+    background: linear-gradient(#63cfab, white 65%);
     .logo {
-        width: 150px; 
+        width: 175px;
     }
     .navbar {
         justify-content: center;
@@ -41,11 +42,22 @@
             width: 10%;
             a {
                 color: black;
-                text-decoration: none;
+                text-decoration: none; 
+                :hover {
+                    color: gray;
+                }
             }
         }
-        
-        
+    }
+    .container-line {
+        display: flex;
+        justify-content: center;
+        .line {
+            background-color: black;
+            width: 30%;
+            height: 2px;
+            box-shadow: 3px 2px 3px #0000002e;
+        } 
     }
     
 }

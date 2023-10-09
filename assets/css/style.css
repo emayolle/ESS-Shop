@@ -37,10 +37,12 @@
 
 .container-logo {
   text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#63cfab), color-stop(65%, white));
+  background: linear-gradient(#63cfab, white 65%);
 }
 
 .container-logo .logo {
-  width: 150px;
+  width: 175px;
 }
 
 .container-logo .navbar {
@@ -60,5 +62,26 @@
 .container-logo .navbar .text a {
   color: black;
   text-decoration: none;
+}
+
+.container-logo .navbar .text a :hover {
+  color: gray;
+}
+
+.container-logo .container-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-logo .container-line .line {
+  background-color: black;
+  width: 30%;
+  height: 2px;
+  -webkit-box-shadow: 3px 2px 3px #0000002e;
+          box-shadow: 3px 2px 3px #0000002e;
 }
 /*# sourceMappingURL=style.css.map */
